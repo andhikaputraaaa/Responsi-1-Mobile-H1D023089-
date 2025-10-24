@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andhika Putra"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2002-06-05"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:paddingVertical="4dp" />
+
+    <TextView
+        android:id="@+id/tvNationality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poland"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:paddingVertical="4dp" />
+
+    <TextView
+        android:id="@+id/tvPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Left Winger"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp"
+        android:paddingVertical="4dp"
+        android:paddingBottom="8dp" />
+
+</LinearLayout>
